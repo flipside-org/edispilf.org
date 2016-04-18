@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>edispilF</title>
+	<meta name="description" content="Flipside builds web-based communication tools using Open Source tools.">
+	<meta name="author" content="Flipside">
+	<link rel="shortcut icon" href="favicon-flipped.ico">
+	<style type="text/css">
+		body {
+			margin: 0;
+		}
+		/*	
+		iframe {
+			-moz-transform:rotateY(180deg);
+			-webkit-transform:rotateY(180deg);
+			-o-transform:rotateY(180deg);
+			-ms-transform:rotateY(180deg);
+			transform:rotateY(180deg);
+		}
+		*/
+	</style>
+	<script type="text/javascript">
+		function flip() {
+			document.body.style.MozTransform='rotateY(180deg)';
+			document.body.style.WebkitTransform='rotateY(180deg)';
+			document.body.style.OTransform='rotateY(180deg)';
+		}
+	</script>
+</head>
+<body>
+	<iframe src="http://flipside.org" height="100%" width="100%" frameborder="0" onload="flip()"><a href="http://flipside.org">Your browser does not support iframes. You don't miss much though and can still go to our regular site.</a></iframe>
+</body>
+</html>
+
